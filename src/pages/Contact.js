@@ -1,8 +1,14 @@
 import React from 'react';
+import Header from '../components/Header';
+import Menu from '../components/Menu';
+import '../styles/Contact.css';
 
 function Contact() {
   return (
-    <h1>Contato</h1>
+    <section>
+      <Menu />
+      <Header pageTitle="Contato" />
+    </section>
   );
 }
 

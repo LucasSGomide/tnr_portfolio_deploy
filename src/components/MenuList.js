@@ -5,8 +5,8 @@ import '../styles/MenuList.css';
 
 function MenuList({ menuName, linkPath }) {
   return (
-    <Link to={ linkPath }>
-      <ul className="list-menu">
+    <Link to={ linkPath } className="menu-link">
+      <ul className="menu-list">
         <li>{menuName}</li>
       </ul>
     </Link>

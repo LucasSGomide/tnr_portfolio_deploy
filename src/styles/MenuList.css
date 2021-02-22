@@ -1,7 +1,22 @@
-.list-menu {
-  background-color: rgb(99, 3, 94);
+.menu-list {
+  background-color: none;
   border: none;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   width: 100%;
+}
+
+.menu-list li {
+  background-color: none;
+  font-weight: 500;
+  margin: 5px 15px 5px 5px;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  background-color: rgba(216, 216, 216, 0.164);
+  text-decoration-color: white;
 }
