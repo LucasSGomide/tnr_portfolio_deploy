@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+}
+
+.expanded-menu {
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  width: 40%;
+}
+
+.box-menu-btn {
+  background-color: rgb(235, 235, 235);
+  border: 1px solid gray;
+  height: 40px;
+  outline: none;
+}
+
+.box-menu-img {
+  width: 35px;
+}
